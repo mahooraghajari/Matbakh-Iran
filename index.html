@@ -1,0 +1,128 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   مطبخ ایران
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&amp;family=Vazirmatn:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <nav>
+   <div class="nav">
+    <a class="logo has-img" href="index.html"><img src="assest/images/logo.png" alt="مطبخ ایران"></a>
+    <div class="links">
+     <a class="on" href="index.html">
+      خانه
+     </a>
+     <a href="#fridge">
+      یخچال
+     </a>
+     <a href="#sofre">
+      سفره ایران
+     </a>
+     <a href="#recipes">
+      دستورها
+     </a>
+     <a href="shop.html" rel="noopener" target="_blank">
+      دکان
+     </a>
+    </div>
+    <form class="search" id="sf" role="search">
+     <input aria-label="جستجوی غذا" id="q" placeholder="جستجوی غذا…"/>
+     <button>
+      جستجو
+     </button>
+    </form>
+    <a class="cart" href="shop.html" rel="noopener" target="_blank">
+     زنبیل
+     <b id="cb">
+      ۰
+     </b>
+    </a>
+   </div>
+   <div class="kashi">
+   </div>
+  </nav>
+  <section class="hero">
+   <div>
+    <h1>
+     سفره‌ای به رنگ و بوی ایران قدیم
+    </h1>
+    <p>
+     دستور پخت غذاهای هر گوشه ایران، و مواد اصیل برای پختنشان؛ از زعفران قائنات تا برنج شمال.
+    </p>
+    <a class="btn" href="#fridge">
+     ببین توی یخچالت چی داری
+    </a>
+   </div>
+   <div class="arch" id="pick">
+   </div>
+  </section>
+  <section id="fridge">
+   <div class="title">
+    <h2>
+     توی یخچالت چی داری؟
+    </h2>
+    <p>
+     موادی را که داری انتخاب کن و جستجو را بزن.
+    </p>
+   </div>
+   <div class="panel" id="fridge2">
+    <div class="chips" id="chips">
+    </div>
+    <p style="text-align:center">
+     <button class="btn dark" id="go">
+      پیدا کردن غذا
+     </button>
+    </p>
+    <div class="res" id="fres">
+    </div>
+   </div>
+  </section>
+  <section id="sofre">
+   <div class="title">
+    <h2>
+     سفره ایران
+    </h2>
+    <p>
+     روی استان‌های رنگی بروید تا غذای محلی‌اش را ببینید.
+    </p>
+   </div>
+   <div class="map" id="map">
+   </div>
+   <div id="prov">
+    <p>
+     یک استان انتخاب کن.
+    </p>
+   </div>
+  </section>
+  <section id="recipes">
+   <div class="title">
+    <h2>
+     دستور پخت همه غذاها
+    </h2>
+   </div>
+   <div class="res" id="all">
+   </div>
+  </section>
+  <footer>
+   <div class="kashi" style="margin:-26px -14px 20px">
+   </div>
+   <q>
+    آشپزی، هنر دست و دل است.
+   </q>
+   <p>
+    مطبخ ایران · پروژه پایانی فرانت‌اند
+   </p>
+  </footer>
+  <dialog id="rd">
+  </dialog>
+  <script src="data.js">
+  </script>
+  <script src="app.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   دکان · مطبخ ایران
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&amp;family=Vazirmatn:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <nav>
+   <div class="nav">
+    <a class="logo has-img" href="index.html"><img src="assest/images/logo.png" alt="مطبخ ایران"></a>
+    <div class="links">
+     <a href="index.html">
+      خانه
+     </a>
+     <a class="on" href="shop.html">
+      دکان
+     </a>
+    </div>
+    <form action="index.html" class="search" role="search">
+     <input aria-label="جستجوی غذا" placeholder="جستجوی غذا…"/>
+     <button onclick="location.href='index.html#recipes'" type="button">
+      جستجو
+     </button>
+    </form>
+    <button class="cart" id="cartbtn">
+     زنبیل
+     <b id="cb">
+      ۰
+     </b>
+    </button>
+   </div>
+   <div class="kashi">
+   </div>
+  </nav>
+  <header class="shophead">
+   <h1>
+    دکان مطبخ
+   </h1>
+   <p>
+    ادویه، غلات، خشکبار و لوازم آشپزخانه سنتی
+   </p>
+  </header>
+  <section>
+   <div class="chips" id="cats" style="margin-bottom:24px">
+   </div>
+   <div class="res" id="shop">
+   </div>
+  </section>
+  <footer>
+   مطبخ ایران · دکان
+  </footer>
+  <dialog id="cd">
+   <button class="btn dark close" onclick="this.closest('dialog').close()">
+    بستن
+   </button>
+   <h2>
+ زنبیل خرید
+   </h2>
+   <div id="cl">
+   </div>
+  </dialog>
+  <script src="data.js">
+  </script>
+  <script src="app.js">
+  </script>
+ </body>
+</html>
